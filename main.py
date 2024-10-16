@@ -45,7 +45,7 @@ def afficher_menu():
 def obtenir_choix():
     try:
         return int(input("""
-        Entrez une option :
+        
  ____(user@Tool)
 │__# """))
     except ValueError:
