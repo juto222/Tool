@@ -18,7 +18,6 @@ from Option import HashFichier
 from Option import HashMDP
 from Option import VerifMDP
 from Option import Conv
-from Option import Stealer
 
 def afficher_menu():
     print("""  
