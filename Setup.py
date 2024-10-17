@@ -7,7 +7,7 @@ print("Installation des modules pour mon tool:")
 
 
 if sys.platform.startswith("win"):
-    os.system("python -m pip install -r requirements.txt")
+    os.system("pip install -r requirements.txt")
     os.system("python main.py")
 
 elif sys.platform.startswith("linux"):
