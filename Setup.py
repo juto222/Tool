@@ -1,7 +1,5 @@
 import sys
 import os
-import main
-
 
 print("Installation des modules pour mon tool:")
 
