@@ -8,7 +8,6 @@ import re
 import ipaddress
 import webbrowser
 
-from Options import ScanNetwork
 from Options import GenererIPv6
 from Options import MdpGenerer
 from Options import WebCheck
@@ -35,12 +34,12 @@ def afficher_menu():
                             https://discord.gg/6WjWn5f6RF  
           
 
-────────────|[Network] ─────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
-│                                │                                   │
-│────1  Random IPv6 Generateur   │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware
-│────2  Scanner Network          │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
-│────5  Sous domaine             │───7  Vérifier un mot de passe     │────10 Vérifier si un site est en ligne
-│────12 Attaque DDoS                                                 │────11 Cheat Valorant
+────────────|[Network] ────────────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
+│                                       │                                   │
+│────1  Random IPv6 Generateur          │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware
+│────2  Scanner Network(not available)  │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
+│────5  Sous domaine                    │───7  Vérifier un mot de passe     │────10 Vérifier si un site est en ligne
+│────12 Attaque DDoS                                                        │────11 Cheat Valorant
 │
 │───────────[OSINT]──────────────
 │ 
@@ -70,11 +69,6 @@ while True:
             GenererIPv6.generate_ipv6() 
         except Exception as e:
             print(f"Erreur lors de la génération d'IPv6 : {e}")
-    elif choix == 2:
-        try:
-            ScanNetwork.scan_network()  
-        except Exception as e:
-            print(f"Erreur lors du scan du réseau : {e}")
     elif choix == 3:
         try:
             MdpGenerer.generer_mot_de_passe()
