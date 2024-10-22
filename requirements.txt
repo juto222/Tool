@@ -1,9 +1,2 @@
-random
-string
-hashlib
 dnspython
-requests
 nmap
-re
-ipaddress
-webbrowser
