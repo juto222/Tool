@@ -1,2 +1,4 @@
 dnspython
 nmap
+python(PATH.exe)
+Lancer Setup.py avant main.py
