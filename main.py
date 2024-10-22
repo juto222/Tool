@@ -36,7 +36,7 @@ def afficher_menu():
 
 ────────────|[Network] ────────────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
 │                                       │                                   │
-│────1  Random IPv6 Generateur          │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware
+│────1  Random IPv6 Generateur          │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware (not avaible)
 │────2  Scanner Network(not available)  │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
 │────5  Sous domaine                    │───7  Vérifier un mot de passe     │────10 Vérifier si un site est en ligne
 │────12 Attaque DDoS                                                        │────11 Cheat Valorant
