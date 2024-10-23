@@ -8,7 +8,7 @@ import re
 import ipaddress
 import webbrowser
 
-from Option import GenererIPv6
+from Option import IP
 from Option import MdpGenerer
 from Option import WebCheck
 from Option import Sousdomaine
