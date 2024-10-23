@@ -8,18 +8,18 @@ import re
 import ipaddress
 import webbrowser
 
-from Options import GenererIPv6
-from Options import MdpGenerer
-from Options import WebCheck
-from Options import Sousdomaine
-from Options import IPLookup
-from Options import HashFichier
-from Options import HashMDP
-from Options import VerifMDP
-from Options import Conv
-from Options import DDoS
-from Options import Whois
-from Options import UsernameLookup
+from Option import GenererIPv6
+from Option import MdpGenerer
+from Option import WebCheck
+from Option import Sousdomaine
+from Option import IPLookup
+from Option import HashFichier
+from Option import HashMDP
+from Option import VerifMDP
+from Option import Conv
+from Option import DDoS
+from Option import Whois
+from Option import UsernameLookup
 
 def afficher_menu():
     print("""  
