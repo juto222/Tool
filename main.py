@@ -74,11 +74,11 @@ while True:
             MdpGenerer.generer_mot_de_passe()
         except Exception as e:
             print(f"Erreur lors de la génération du mot de passe : {e}")
-    elif choix == 4:
-        try:
-            HashFichier.calculer_hash_fichier() 
-        except Exception as e:
-            print(f"Erreur lors du calcul du hash de fichier : {e}")
+    #elif choix == 4:
+     #   try:
+      #      HashFichier.calculer_hash_fichier() 
+       # except Exception as e:
+        #    print(f"Erreur lors du calcul du hash de fichier : {e}")
     elif choix == 5:
         try:
             Sousdomaine.sousdomaine() 
