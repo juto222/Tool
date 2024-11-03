@@ -2,7 +2,7 @@ import requests
 
 
 
-def obtenir_infos_ip(ip_address):
+def obtenir_infos_ip():
     print(r"""
                   __   ____   ______       __     __    _____       __      __   ______   ______ 
                  /  | / __ \ (_____ \     /  |   / /   / ___ \     /  |    /  | / __   | / __   |
@@ -17,7 +17,7 @@ def obtenir_infos_ip(ip_address):
                                                                                  
 """)
     
-    ip_a_verifier = input("Entrez une adresse IP : ")
+    ip_address = input("Entrez une adresse IP : ")
     
     url = f"http://ipinfo.io/{ip_address}/json"
     try:
@@ -37,5 +37,5 @@ def obtenir_infos_ip(ip_address):
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
 
-        obtenir_infos_ip(ip_a_verifier)
+        obtenir_infos_ip()
 
