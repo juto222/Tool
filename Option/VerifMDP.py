@@ -1,6 +1,6 @@
 import re
 
-def mdp_force(password):
+def mdp_force():
 
     print(r"""
 
@@ -13,6 +13,8 @@ def mdp_force(password):
                                             
 
     """)
+
+    password = input("Entez votre mot de passe : ")
     
     score = 0
 
