@@ -44,7 +44,7 @@ def afficher_menu():
 │───────────[OSINT]──────────────
 │ 
 │────8  Info sur l'IP
-│────13 Sous domaine info
+│────13 Sous domaine info (not avaible)
 │────14 Username Lookup          
 │          
 │    0- Quitter
