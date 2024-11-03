@@ -1,6 +1,6 @@
 import hashlib
 
-def hasher_mot_de_passe(mot_de_passe):
+def hasher_mot_de_passe():
     print(r"""
              ______   _____    ______                              _____       _  _      _   __   ___ 
             |  ___ \ (____ \  (_____ \                   _  _     / ___ \     | || |    | | /  | / __)
