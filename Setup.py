@@ -3,6 +3,8 @@ import sys
 
 print("Installation des modules pour mon tool:")
 
+
+os.system("python.exe -m pip install --upgrade pip")
 os.system("pip install dnspython")
 os.system("pip install python-nmap")
 os.system("pip install setuptools")
