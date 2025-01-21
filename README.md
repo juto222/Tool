@@ -32,3 +32,8 @@ WARNING: I am not an expert in IT; I claim nothing. I just want us to help each 
 We welcome all skill levels, everyone, but with kindness and total humility.
 
 Join our Discord server!
+
+
+
+![image](https://github.com/user-attachments/assets/5f4a73e7-230d-4a66-a452-342b6c63f8f8)
+
