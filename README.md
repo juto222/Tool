@@ -1,5 +1,5 @@
-UPDATE : I have just start to work again on this, i will optimize it, add some option but im working on my OS.
-MISE A JOUR : Je viens de re travailler dessus, je l'optimiserai, j'ajouterai des options et me focaliserai dessus en parallèle de mon OS
+UPDATE : I have just start to work again on this, i will optimize it, add some options.
+MISE A JOUR : Je viens de re travailler dessus, je l'optimiserai, j'ajouterai des options.
 
 
 
