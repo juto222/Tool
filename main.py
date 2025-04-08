@@ -9,8 +9,8 @@ import ipaddress
 import webbrowser
 
 from Option import GenererIPv6
+from Option import ScanNetwork
 from Option import MdpGenerer
-from Option import HashFichier
 from Option import Sousdomaine
 from Option import HashMDP
 from Option import VerifMDP
@@ -19,32 +19,32 @@ from Option import Conv
 from Option import WebCheck
 from Option import DDoS
 from Option import Whois
-from Option import UsernameLookup
+from Option import Username_Lookup
 
 def afficher_menu():
     print("""  
-                ░▒▓████████▓▒░  ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓█▓▒░              
+                ░▒▓████████▓▒░  ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓█▓▒░               
                    ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-                   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-                   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-                   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
+                   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░             
+                   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░            
+                   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░            
                    ░▒▓█▓▒░      ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓████████▓▒░
           
 
                             https://discord.gg/6WjWn5f6RF  
           
 
-────────────|[Network] ────────────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
+────────────[Network] ────────────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
 │                                       │                                   │
 │────1  Random IPv6 Generateur          │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware (not avaible)
-│────2  Scanner Network(not available)  │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
+│────2  Scanner Network                 │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
 │────5  Sous domaine                    │───7  Vérifier un mot de passe     │────10 Vérifier si un site est en ligne
 │────12 Attaque DDoS                                                        │────11 Cheat Valorant
 │
 │───────────[OSINT]──────────────
 │ 
 │────8  Info sur l'IP
-│────13 Sous domaine info (not avaible)
+│────13 Sous domaine info 
 │────14 Username Lookup          
 │          
 │    0- Quitter
@@ -52,8 +52,8 @@ def afficher_menu():
 
 def obtenir_choix():
     try:
-        return int(input("""
- ____(user@Tool)
+        return int(input(""" 
+ ____(user@Tool) 
 │__#  """))
     except ValueError:
         print("Entrée invalide. Veuillez entrer un numéro valide.")
@@ -69,16 +69,16 @@ while True:
             GenererIPv6.generate_ipv6() 
         except Exception as e:
             print(f"Erreur lors de la génération d'IPv6 : {e}")
+    elif choix == 2:
+        try:
+            ScanNetwork.scan_network()
+        except Exception as e:
+            print(f"Erreur lors du scan : {e}")
     elif choix == 3:
         try:
             MdpGenerer.generer_mot_de_passe()
         except Exception as e:
             print(f"Erreur lors de la génération du mot de passe : {e}")
-    #elif choix == 4:
-     #   try:
-      #      HashFichier.calculer_hash_fichier() 
-       # except Exception as e:
-        #    print(f"Erreur lors du calcul du hash de fichier : {e}")
     elif choix == 5:
         try:
             Sousdomaine.sousdomaine() 
@@ -124,9 +124,9 @@ while True:
             print(f"Une erreur est survenue : {e}")
     elif choix == 14:
         try:
-            UsernameLookup.username()
+            Username_Lookup.username()
         except Exception as e:
-            print("Une erreur est survenue lors de la recherche : {e}")
+            print(f"Une erreur est survenue lors de la recherche : {e}")
     elif choix == 0:
         print("Au revoir!")
         break
