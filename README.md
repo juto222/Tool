@@ -1,5 +1,5 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![Platform](https://img.shields.io/badge/Platform-Linux--Kali-important?logo=linux)
+![Platform](https://img.shields.io/badge/Platform-Linux--important?logo=linux)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 💠 Mon Tool - Installation & Présentation
