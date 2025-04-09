@@ -36,16 +36,15 @@ def afficher_menu():
 
 ────────────[Network] ────────────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
 │                                       │                                   │
-│────1  Random IPv6 Generateur          │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware (not avaible)
-│────2  Scanner Network                 │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
-│────5  Sous domaine                    │───7  Vérifier un mot de passe     │────10 Vérifier si un site est en ligne
-│────12 Attaque DDoS                                                        │────11 Cheat Valorant
+│────1  Random IPv6 Generateur          │───3  Générer un mot de passe      │────8  Convertir hexadécimal en décimal
+│────2  Scanner Network                 │───5  Hacher un mot de passe       │────9 Vérifier si un site est en ligne
+│────4  Sous domaine                    │───6  Vérifier un mot de passe     │────10 Cheat Valorant
+│────11 Attaque DDoS                                                        
 │
 │───────────[OSINT]──────────────
 │ 
-│────8  Info sur l'IP
-│────13 Sous domaine info 
-│────14 Username Lookup          
+│────7  Info sur l'IP
+│────12 Username Lookup          
 │          
 │    0- Quitter
     """)
@@ -79,50 +78,45 @@ while True:
             MdpGenerer.generer_mot_de_passe()
         except Exception as e:
             print(f"Erreur lors de la génération du mot de passe : {e}")
-    elif choix == 5:
+    elif choix == 4:
         try:
             Sousdomaine.sousdomaine() 
         except Exception as e:
             print(f"Erreur lors de la recherche de sous-domaines : {e}")
-    elif choix == 6:
+    elif choix == 5:
         try:
             HashMDP.hasher_mot_de_passe() 
         except Exception as e:
             print(f"Erreur lors du hachage du mot de passe : {e}")
-    elif choix == 7:
+    elif choix == 6:
         try:
             VerifMDP.mdp_force()
         except Exception as e:
             print(f"Erreur lors de la vérification du mot de passe : {e}")
-    elif choix == 8:
+    elif choix == 7:
         try:
             IPLookup.obtenir_infos_ip()  
         except Exception as e:
             print(f"Erreur lors de la récupération des informations IP : {e}")
-    elif choix == 9:
+    elif choix == 8:
         try:
             Conv.convertir() 
         except Exception as e:
             print(f"Erreur lors de la conversion : {e}")
-    elif choix == 10:
+    elif choix == 9:
         try:
             WebCheck.web()
         except Exception as e:
             print(f"Erreur lors de la vérification : {e}")
-    elif choix == 11:
+    elif choix == 10:
         url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         webbrowser.open_new_tab(url)
-    elif choix == 12:
+    elif choix == 11:
         try:
             DDoS.ddos_attack()
         except Exception as e:
             print(f"Une erreur lors de l'attaque est survenue : {e}")
-    elif choix == 13:
-        try:
-            Whois.info_domaine()
-        except Exception as e:
-            print(f"Une erreur est survenue : {e}")
-    elif choix == 14:
+    elif choix == 12:
         try:
             Username_Lookup.username()
         except Exception as e:
