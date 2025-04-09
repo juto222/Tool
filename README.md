@@ -43,3 +43,13 @@ Join our Discord server!
 
 ![image](https://github.com/user-attachments/assets/5f4a73e7-230d-4a66-a452-342b6c63f8f8)
 
+
+Rendez le setup.sh executable
+
+![code](chmod +x setup.sh)
+
+En cas d'erreur de d'interprétation:
+
+![code](sed -i 's/\r$//' setup.sh)
+
+
