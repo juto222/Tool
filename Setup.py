@@ -8,7 +8,7 @@ os.system("source Tool/bin/activate")
 
 
 
-os.system("python.exe -m pip install --upgrade pip")
+os.system("python3 -m pip install --upgrade pip")
 os.system("pip install dnspython")
 os.system("pip install python-nmap")
 os.system("pip install setuptools")
