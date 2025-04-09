@@ -29,7 +29,7 @@ Le but n’est ni commercial, ni professionnel : **juste du partage, de l’entr
 
 - 🐍 **Python 3** installé sur votre machine.
 - ✅ Avoir ajouté **python** (ou **python.exe**) au **PATH** système.
-- ✅ **Système compatible** : **Linux** (Kali recommandé).
+- ✅ **Système compatible** : **Linux**.
 
 ---
 
@@ -54,9 +54,7 @@ Le but n’est ni commercial, ni professionnel : **juste du partage, de l’entr
 
 ## 🧪 Objectif
 
-Créer votre propre **tool Python**, modulable, avec les fonctionnalités que vous souhaitez.
-
-Vous pouvez forker ce projet, ajouter vos options, vos menus, vos interfaces. **Personnalisez-le à votre goût** !
+Créer votre propre **Outil** en Python ou autre, modulable, avec les fonctionnalités que vous souhaitez.
 
 ---
 
@@ -82,7 +80,7 @@ No commercial goals, just **learning** and helping each other build useful Pytho
 
 - 🐍 **Python 3** must be installed.
 - ✅ Add **python** or **python.exe** to your system **PATH**.
-- ✅ Works best on **Linux** (Kali recommended).
+- ✅ Works best on **Linux**.
 
 ### 🔧 Setup Instructions
 
