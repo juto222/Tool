@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-Linux--Kali-important?logo=linux)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 💠 Mon Tool - Installation & Présentation
 
 🇫🇷 Présentation
@@ -11,6 +15,7 @@ Ce projet est un outil basique mais évolutif, pensé pour apprendre, personnali
 ✅ Avoir ajouté python (ou python.exe) au PATH système
 
 ✅ Système compatible : Linux (Kali recommandé)
+
 
 🔧 Installation
 
