@@ -3,6 +3,10 @@ import sys
 
 print("Installation des modules pour mon tool:")
 
+os.system("python3 -m venv Tool")
+os.system("source Tool/bin/activate")
+
+
 
 os.system("python.exe -m pip install --upgrade pip")
 os.system("pip install dnspython")
