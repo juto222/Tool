@@ -1,55 +1,76 @@
-UPDATE : I have just start to work again on this, i will optimize it, add some options.
-MISE A JOUR : Je viens de re travailler dessus, je l'optimiserai, j'ajouterai des options.
+💠 Mon Tool - Installation & Présentation
 
+🇫🇷 Présentation
 
+Ce projet est un outil basique mais évolutif, pensé pour apprendre, personnaliser et collaborer autour d’un outil Python commun.Le but n’est ni commercial, ni professionnel : juste du partage, de l’entraide, et de la passion.
 
+⚠️ Pré-requis
 
-VOUS DEVEZ AVOIR INSTALLER PYTHON ET AVOIR AJOUTER PATH.exe !!!!!!
+🐍 Python 3 installé sur votre machine
 
-        
-        ░▒▓████████▓▒░  ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓█▓▒░              
-           ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-           ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-           ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-           ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-           ░▒▓█▓▒░      ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓████████▓▒░
-Voici un tool vraiment très basique, Il n'est pas dans le but de vendre des choses ou autre mais dans le but de s'entraider à faire un tool très utile.
+✅ Avoir ajouté python (ou python.exe) au PATH système
 
-ATTENTION : Je ne suis pas un expert en info tout ça je me proclame rien du tout. J'aimerai juste qu'on s'entraide à faire le même objectif, Avoir son propre tool personnalisé.
+✅ Système compatible : Linux (Kali recommandé)
 
-On accepte tout types de niveau, tout le monde mais dans la bienveillance, l'humilité totale.
+🔧 Installation
 
-Rejoingnez notre serveur discord !
+Rendre le script d’installation exécutable :
 
+chmod +x setup.sh
 
+Corriger les erreurs d’interpréteur si besoin (fins de ligne Windows) :
 
-YOU MUST HAVE INSTALLED PYTHON AND ADDED PATH.exe!!!
+sed -i 's/\r$//' setup.sh
 
-    ░▒▓████████▓▒░  ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓█▓▒░              
-       ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-       ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-       ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-       ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
-       ░▒▓█▓▒░      ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓████████▓▒░
-This is a really basic tool. It's not intended to sell anything or for any other purpose, but to help each other create a very useful tool.
+Lancer l’installation automatique des modules :
 
-WARNING: I am not an expert in IT; I claim nothing. I just want us to help each other achieve the same goal: to have our own personalized tool.
+./setup.sh
 
-We welcome all skill levels, everyone, but with kindness and total humility.
+🧪 Objectif
 
-Join our Discord server!
+Créer votre propre tool Python, modulable, avec les fonctionnalités que vous voulez.Vous pouvez forker ce projet, ajouter vos options, vos menus, vos interfaces.
 
+🌐 Rejoignez-nous !
 
+🌟 Peu importe votre niveau : débutant, confirmé ou curieux, vous êtes les bienvenus.Nous construisons tout ça avec bienveillance et humilité, en apprenant ensemble.
 
-![image](https://github.com/user-attachments/assets/5f4a73e7-230d-4a66-a452-342b6c63f8f8)
+📌 [Lien du serveur Discord ici] (mets ton lien)
 
+🇬🇧 My Tool - Setup & Info
 
-Rendez le setup.sh executable
+🌟 About
 
-![code](chmod +x setup.sh)
+This is a very basic but customizable tool, created for educational purposes and collaboration.No commercial goals, just learning and helping each other build useful Python tools.
 
-En cas d'erreur de d'interprétation:
+⚠️ Requirements
 
-![code](sed -i 's/\r$//' setup.sh)
+🐍 Python 3 must be installed
 
+✅ Add python or python.exe to your system PATH
+
+✅ Works best on Linux (Kali recommended)
+
+🔧 Setup Instructions
+
+Make the setup script executable:
+
+chmod +x setup.sh
+
+Fix interpreter error (Windows line endings):
+
+sed -i 's/\r$//' setup.sh
+
+Run the installer:
+
+./setup.sh
+
+💡 Goal
+
+Create your own personalized Python tool, with the features you want.Fork it, tweak it, and make it yours.
+
+🤝 Join Us!
+
+All skill levels are welcome! We learn, build, and grow together — with kindness and humility.
+
+📌 [Join our Discord here] (add your invite link)
 
