@@ -45,4 +45,6 @@ print("""
       
       
       
-      Installation fini ! Vous pouvez lancer le main.py""")
+      Installation fini ! Vous pouvez lancer le main.py
+
+      Pensez à faire "deactivate" à la fin de votre utilisation """)
