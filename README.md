@@ -2,6 +2,16 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux--important?logo=linux)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+## 🧭 Sommaire
+
+- [🇫🇷 Présentation](#-présentation)
+- [⚠️ Pré-requis](#️-pré-requis)
+- [🔧 Installation](#-installation)
+- [🧪 Objectif](#-objectif)
+- [🌐 Rejoignez-nous](#-rejoignez-nous-)
+- [🇬🇧 English Section](#-my-tool---setup--info)
+
+
 💠 Mon Tool - Installation & Présentation
 
 🇫🇷 Présentation
