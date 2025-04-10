@@ -19,7 +19,7 @@ source Tool/bin/activate
 python3 -m pip install --upgrade pip
 
 # Installation des packages nécessaires
-PACKAGES=("dnspython" "python-nmap" "auto-py-to-exe" "aiohttp" "requests" "pyautogui")
+PACKAGES=("dnspython" "python-nmap" "auto-py-to-exe" "aiohttp" "requests" "pyautogui" "webbrowser")
 
 for PACKAGE in "${PACKAGES[@]}"
 do
