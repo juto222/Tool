@@ -64,7 +64,7 @@ Peu importe votre niveau : **débutant, confirmé ou curieux**, vous êtes les b
 
 Nous construisons tout cela avec bienveillance et humilité, en apprenant ensemble.
 
-📌 [Lien du serveur Discord ici] (mets ton lien)
+📌 [Lien du serveur Discord ici](https://discord.gg/6WjWn5f6RF))
 
 ---
 
@@ -113,5 +113,5 @@ Fork it, tweak it, and make it yours.
 
 All skill levels are welcome! We learn, build, and grow together — with kindness and humility.
 
-📌 [Join our Discord here] (add your invite link)
+📌 [Join our Discord here](https://discord.gg/6WjWn5f6RF))
 
