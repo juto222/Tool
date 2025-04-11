@@ -9,7 +9,7 @@ then
     exit 1
 fi
 
-# Créer un environnement virtuel
+# environnement virtuel
 python3 -m venv Tool
 
 # Activer l'environnement virtuel
@@ -18,7 +18,7 @@ source Tool/bin/activate
 # Mettre à jour pip
 python3 -m pip install --upgrade pip
 
-# Installation des packages nécessaires
+# Installation des packet nécessaires
 PACKAGES=("dnspython" "python-nmap" "auto-py-to-exe" "aiohttp" "requests" "pyautogui" "webbrowser")
 
 for PACKAGE in "${PACKAGES[@]}"
@@ -31,9 +31,7 @@ do
     fi
 done
 
-# Message d'alerte en cas d'erreur de librairie
 echo -e "EN CAS D'ERREUR DE LIBRAIRIE, REINSTALLER LES MANNUELLEMENT JUSQU'À QUE ÇA MARCHE !!!!!"
 
-# Message de fin
 echo -e "\n\nInstallation terminée ! Vous pouvez lancer main.py"
 echo -e 'Pensez à faire "deactivate" à la fin de votre utilisation.'
