@@ -1,4 +1,4 @@
 Nom du site : mot de passe généré
 ######exemple#######
-Metasploit : 0é.@fj32
+X : 0é.@fj32
 ####################
